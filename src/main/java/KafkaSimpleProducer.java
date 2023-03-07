@@ -12,7 +12,7 @@ public class KafkaSimpleProducer {
     public static void main(String[] args) {
 
         // localIp:port or dockerIp:port
-        String bootstrapServer = "172.21.122.239:9092";
+        String bootstrapServer = "localhost:9092";
 
         //cluster ip:port
         String topic = "topic-test";
